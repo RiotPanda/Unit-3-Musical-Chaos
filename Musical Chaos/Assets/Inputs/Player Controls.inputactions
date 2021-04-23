@@ -1,0 +1,52 @@
+{
+    "name": "Player Controls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "170831af-f6e8-4bf1-8ffb-1ee6635b9bd3",
+            "actions": [
+                {
+                    "name": "APressed",
+                    "type": "Button",
+                    "id": "59b58bc1-a0d9-466a-9c21-caa74bff5af5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "BPressed",
+                    "type": "Button",
+                    "id": "59c8f7d4-3741-405b-b510-2bf02aff0bda",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "26761cfc-2d37-4d92-a66c-03eceeb0b4af",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "APressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "63b3c63a-bdad-46be-a1f8-bb3cac64a957",
+                    "path": "<XInputController>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "BPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
