@@ -8,9 +8,6 @@ public class Shade : MonoBehaviour
 {
     PlayerControls controls;
 
-    public GameObject ButtonA;
-    public bool ButtnA = false;
-
     void Awake()
     {
         controls = new PlayerControls();
@@ -19,8 +16,7 @@ public class Shade : MonoBehaviour
 
     void Press() 
     {
-        ButtnA = true;
-        ButtonA.SetActive(true);
+        transform.localScale *= 1.1f;
     }
 
     void OnEnable()
